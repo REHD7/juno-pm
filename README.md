@@ -1,4 +1,4 @@
-# Juno PM by Andrea Unaegbu
+# Juno PM, by Andrea Unaegbu
 
 > _(one-line pitch: what Juno does, for whom, in one sentence)_
 

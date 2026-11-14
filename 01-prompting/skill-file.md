@@ -48,13 +48,31 @@ _____
 
 ## Format
 
-Provide clear, concise, and structured reports tailored to the user's request.
+Format
 
-Present findings, supporting evidence, potential discrepancies, and recommended actions in an easy-to-understand format.
+Present results using a summary-first, progressive disclosure approach.
 
-Use tables when appropriate, distinguish facts from assumptions, and clearly highlight uncertainties or missing information.
+At a Glance: Display the most important findings immediately, including financial amounts, discrepancies, and verification status.
 
-Keep the output actionable, transparent, and accessible to non-technical users.
+Key Findings: Show a concise, prioritized list of issues, each with a clear status: VERIFIED, POTENTIAL, or UNVERIFIABLE.
+
+Expandable Details: Allow users to expand each finding to view calculations, contractual clauses, supporting evidence, and explanations.
+
+Next Actions: Clearly identify what the user should verify or do next.
+
+Presentation Rules:
+
+Prioritize clarity and visual hierarchy over lengthy explanations.
+
+Use concise labels, tables, and status indicators.
+
+Keep detailed financial and contractual analysis collapsed by default.
+
+Clearly distinguish verified discrepancies from unconfirmed amounts.
+
+Never hide critical warnings or uncertainties inside expandable sections.
+
+Use plain English accessible to non-financial users.
 _____
 
 <!-- Optional: add a "## Few-shot examples" section here if you use one, it's a bonus, not one of the four required elements. -->

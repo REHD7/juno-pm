@@ -4,18 +4,23 @@
 
 ## Prototype link
 
-_The public share URL from your build tool. No share URL? A screenshot of the working flow is fine, the prompt is what is assessed._
-
+https://pixel-perfect-replay-9132.lovable.app/
 _____
 
 ## What it demonstrates
 
-_The one flow this prototype proves._
+An interactive Revenue Verification Dashboard for independent music artists.
+
+The prototype demonstrates how users can quickly identify a royalty calculation discrepancy, understand its financial significance, and expand findings to review calculations and supporting explanations.
 
 _____
 
 ## Debrief
 
-- **What worked:** _____
-- **What broke / felt like a toy:** _____
-- **What I'd change next pass:** _____
+What worked: Clear financial summary, visible €500 arithmetic variance, expandable calculations, and explicit distinction between verified arithmetic and money potentially owed.
+
+What broke / felt like a toy: The prototype uses predefined fictional data. It does not yet process uploaded contracts, perform live AI analysis, or verify real financial records.
+
+What I'd change next pass: Implement document upload and extraction, introduce evidence-linked reconciliation, and evaluate accuracy, uncertainty handling, and usability using synthetic test cases.
+
+Current scope: Interactive UI prototype, not a production-ready financial verification system.

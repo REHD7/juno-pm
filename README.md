@@ -2,7 +2,7 @@
 
 > _(one-line pitch: what Juno does, for whom, in one sentence)_
 
-_Andrea Unaegbu · cohort · 14/11/2026_
+Andrea Unaegbu · AI Product Management · 14/11/2026_
 
 This repo is my final project for the **AI Product Management Certification**. Each module's artifact lives in its own folder.
 

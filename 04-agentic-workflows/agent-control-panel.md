@@ -4,40 +4,46 @@
 
 ## What Juno Is Doing
 
-_(missing)_
+Juno is a semi-autonomous AI agent (Level 2) that reads contracts and royalty statements, verifies calculations, identifies financial discrepancies, and generates evidence-based reports using a ReAct workflow.
 
 ## Four Levers
 
 **Stop Conditions** (Loop):
 
-_(missing)_
+Maximum 3 attempts. Stop when verification succeeds, essential evidence is missing, or repeated validation fails.
 
 **Structured Tool Outputs** (Tools):
 
-_(missing)_
+Each tool returns structured data: status (success/failure), extracted values, calculations, source IDs, validation results, and errors
 
 **Confidence Thresholds** (Verification):
 
-_(missing)_
+Classify results as VERIFIED only when calculations and supporting contractual evidence pass validation. Otherwise, flag them as POTENTIAL or UNVERIFIABLE.
 
 **North Star** (Context):
 
-_(missing)_
+Provide accurate, transparent, and traceable royalty reconciliation without inventing financial information
 
 ## Rules of Engagement
 
 **Agency Permission:**
 
-_(missing)_
+READ: Automatic
+
+DRAFT: Automatic
+
+WRITE: Human confirmation required
+
+SEND: Human confirmation required
 
 **Access Control:**
 
-_(missing)_
+Only authorized users can access their uploaded contracts, statements, and financial records. No unauthorized external account access.
 
 **Fallback Protocols:**
 
-_(missing)_
+Retry correctable errors up to 3 times. If verification fails or evidence is missing, stop, explain the issue, and request human intervention.
 
 **Checkpoints:**
 
-_(missing)_
+Validate calculations and source references before presenting verified results. Require human approval before modifying stored records, contacting labels, or initiating financial claims.
